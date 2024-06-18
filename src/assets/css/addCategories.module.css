@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    padding: 0px 32px 32px 32px;
+}
+.container .container__inputBack {
+    background-color: #8F92A10D;
+    padding: 11px 24px;
+    border-radius: 15px;
+}   
+.container .container__inputBack .container__categories {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8F92A1;
+    background-color: transparent;
+    border: none;
+}

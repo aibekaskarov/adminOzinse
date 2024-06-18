@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.home {
+    border-top-left-radius: 13px;
+    background: #8F92A11A;
+    padding: 40px 48px;
+}
+.home .home__blocks {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 30px;
+}
+.home .home__blocks .home__block {
+    width: 100%;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 13px;
+}
+.home .home__blocks .home__block .home__blockImage {
+    width: 100%;
+    height: 276px;
+}
+.home .home__blocks .home__block h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #171717;
+    margin-top: 16px;
+}
+.home .home__blocks .home__block .home__cardDescription {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 8px;    
+}
+.home .home__blocks .home__block .home__cardDescription .home__dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #9CA3AF;
+}
+.home .home__blocks .home__block .home__cardDescription .home__text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9CA3AF;
+}
+.home .home__blocks .home__block .home__settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.home .home__blocks .home__block .home__settings .home__settingsTitle {
+    font-size: 12px;
+    font-weight: 400;
+    color: #0B132A;
+}
+.home .home__blocks .home__block .home__settings .home__settingsEdits {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

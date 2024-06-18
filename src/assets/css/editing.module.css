@@ -1,0 +1,270 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.editing {
+    display: flex;
+}
+.container {
+    width: 872px;
+    background-color: #8F92A11A;
+    padding: 40px 24px;
+    border-radius: 13px;
+}
+.container .container__blocks {
+       
+}
+.container .container__blocks .container__head {
+    display: flex;
+    align-items: center;
+}
+.container .container__blocks .container__head img {
+    margin-left: 14px;
+}
+.container .container__blocks .container__head .container__headTitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8F92A1;
+}
+.container .container__blocks .container__head .container__headTitle:nth-child(1) {
+    margin-left: 24px;
+} 
+.container .container__blocks .container__head .container__headTitle:nth-child(3) {
+    color: #171717;
+    font-weight: 700;
+    margin-left: 14px;
+}
+.container .container__blocks .container__body {
+    background-color: #fff;
+    border-radius: 13px;
+    margin-top: 40px;
+    padding-bottom: 32px;
+}
+.container .container__blocks .container__body .container__bodyPadding {
+    padding: 32px 32px 0 32px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__box1 h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #171717;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__box1 .container__btns {
+    display: flex;
+    align-items: center;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__box1 .container__btns .container__editBtn {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 24px;
+    border: none;
+    background-color: #F3F6F8;
+    border-radius: 15px;
+    margin-right: 16px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__box1 .container__btns .container__deleteBtn {
+    background-color: #DE350B;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__actions {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__actions p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8F92A1;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__actions .container__actionsBox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 16px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__actions .container__actionsBox:nth-last-child(1) {
+    margin-right: 0;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__main {
+    margin-top: 32px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__main .container__mainVideo {
+    width: 760px;
+    height: 428px;
+    margin-bottom: 24px;
+    background-image: url(imageVideo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.container .container__blocks .container__body .container__bodyPadding .container__main .container__mainVideo .container__playBtn {
+    background-color: #7E2DFC;
+    opacity: 0.8;
+    padding: 32px 32px 30px 36px;
+    border: none;
+    border-radius: 50%;   
+}
+.container .container__blocks .container__body .container__bodyPadding .container__main .container__videoSeasons {
+    display: flex;
+    align-items: center;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__main .container__videoSeasons .container__videoSeasonBtn {
+    font-size: 14px;
+    font-weight: 700;
+    color: #171717;
+    background-color: #8F92A11A;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 24px;
+    margin-right: 8px;
+}   
+.container .container__blocks .container__body .container__bodyPadding .container__main .container__videoSeasons .container__videoSeasonBtn:hover {
+    background-color: #0052CC1A;
+    color: #0052CC;
+    cursor: pointer;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__main .container__videoSeasons .container__videoSeasonBtn:nth-last-child(1) {
+    margin-right: 0;
+}
+.container .container__blocks .container__body .container__blockSeries {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #8F92A133;
+    margin-top: 16px;
+    padding-left: 32px;
+}
+.container .container__blocks .container__body .container__blockSeries .container__series {
+    margin-right: 23px;
+}
+.container .container__blocks .container__body .container__blockSeries .container__series .container__seriesText {
+    font-size: 14px;
+    font-weight: 700;
+    color: #8F92A1;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+.container .container__blocks .container__body .container__blockSeries .container__series .container__seriesText:hover {
+    color: #0052CC;
+    background-image: url(borderBottom.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    border-bottom: none;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__description {
+
+}
+.container .container__blocks .container__body .container__bodyPadding .container__description .container__descriptionTitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: #171717;
+    margin-bottom: 32px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__description .container__explanation {
+    font-size: 15.9px;
+    font-weight: 400;
+    color: #171717;
+    margin-bottom: 28px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__description .container__post {
+    display: flex;
+    align-items: center;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__description .container__post:nth-last-child(1) {
+    margin-top: 8px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__description .container__post .container__postTitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8F92A1;
+    width: 70px;
+    margin-right: 38px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__description .container__post .container__personName {
+    font-size: 16px;
+    font-weight: 400;
+}
+.container .container__blocks .container__body .container__borderBottom {
+    margin-top: 34px;
+    border-bottom: 1px solid #8F92A133;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__screenshots {
+
+}
+.container .container__blocks .container__body .container__bodyPadding .container__screenshots .container__screenshotsTitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: #171717;    
+    margin-bottom: 32px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__screenshots .container__screenshotsImages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+.container .container__blocks .container__body .container__bodyPadding .container__screenshots .container__screenshotsBlock {
+    width: 178px;
+    height: 108px;
+    background-color: #8F92A133;
+    border-radius: 10px;
+}
+.info {
+    padding-left: 32px;
+}
+.info .info__block {
+    display: flex;
+    margin-bottom: 16px;
+}
+.info .info__block .info__text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #171717;
+    margin-left: 12px;
+}
+.info .info__banner {
+    width: 150px;
+    height: 220px;
+}
+.info .info__banner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+}
+.info .info__borderBottom {
+    width: 304px;
+    margin-top: 33px;
+    border-bottom: 1px solid #8F92A133;
+}
+.info .info__itemDate {
+    margin-top: 32px;
+}
+.info .info__itemDate .info__date {
+    display: flex;
+    align-items: center;
+}
+.info .info__itemDate .info__date .info__dateText {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8F92A1;
+}
+.info .info__itemDate .info__date .info__dateNum {
+    font-size: 14px;
+    font-weight: 400;
+    color: #171717;
+    margin-left: 2px;
+}

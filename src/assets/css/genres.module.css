@@ -1,0 +1,52 @@
+.genres {
+    border-top-left-radius: 13px;
+    background: #8F92A11A;
+    padding: 40px 48px;
+}
+.menu {
+    margin-top: 40px;
+}
+.menu .menu__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px 16px;
+}
+.menu .menu__cards .menu__card {
+    width: 260px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 13px;
+    position: relative;
+}
+.menu .menu__cards .menu__card .menu__cardImage {
+    width: 228px;
+    border-radius: 10px;
+}
+.menu .menu__cards .menu__card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #171717;
+    height: 40px;
+    margin-top: 16px;
+}
+.menu .menu__cards .menu__card .menu__settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.menu .menu__cards .menu__card .menu__settings .menu__videos {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.menu .menu__cards .menu__card .menu__settings .menu__videos p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9CA3AF;
+}
+.menu .menu__cards .menu__card .menu__settings .menu__edits {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

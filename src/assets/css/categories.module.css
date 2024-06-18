@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.categories {
+    border-top-left-radius: 13px;
+    background: #8F92A11A;
+    padding: 40px 48px;
+}
+.categories .categories__blocks {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+.categories .categories__blocks .categories__block {
+    background-color: #fff;
+    width: 260px;
+    padding: 16px;
+    border-radius: 15px;
+}
+.categories .categories__blocks .categories__block h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #171717;
+}
+.categories .categories__blocks .categories__block h3:hover {
+    color: #0052CC;
+    cursor: pointer;
+}
+.categories .categories__blocks .categories__block .categories__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.categories .categories__blocks .categories__block .categories__items .categories__videos {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.categories .categories__blocks .categories__block .categories__items .categories__videos p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9CA3AF;
+}
+.categories .categories__blocks .categories__block .categories__items .categories__edits {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

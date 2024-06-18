@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container .container__background {
+    width: 574px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-bottom: 32px;
+}
+.container .container__background .container__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 24px 22px 24px;
+    border-bottom: 1px solid#8F92A11A;
+    margin-bottom: 32px;
+}
+.container .container__background .container__head .container__headTitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #171717;
+}
+.container .container__background .container__centerText {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8F92A1;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.container .container__background .container__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.container .container__background .container__btns .container__deleteBtn {
+    padding: 8px 24px;
+    background-color: #7E2DFC;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+.container .container__background .container__btns .container__cancelBtn {
+    padding: 8px 39px;
+    background-color: #8F92A11A;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;   
+    color: #171717;
+    cursor: pointer;
+}
+.addHome {
+    padding: 0px 32px 32px 32px;
+}
+.addHome .addHome__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8F92A10D;
+    padding: 11px 20px 11px 24px;
+    border-radius: 15px;
+}
+.addHome .addHome__block:nth-last-child(2) {
+    margin-top: 16px;
+}
+.addHome .addHome__block .addHome__blockTitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8F92A1;
+}
+.addHome .addHome__download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #8F92A10D;
+    border: 3px dashed #8F92A133;
+    margin-top: 16px;
+    width: 100%;
+    height: 168px;
+}
+.addHome .addHome__download .addHome__backgroundImage {
+    background-color: #8F92A10D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    padding: 16px;
+}
+.addHome .addHome__download .addHome__spanText {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.addHome .addHome__download .addHome__spanText .addHome__text1 {
+    color: #8F92A1;
+}
+.addHome .addHome__download .addHome__spanText .addHome__text2 {
+    color: #0052CC;
+}

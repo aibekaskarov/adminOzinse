@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.loginCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginCont .loginCont__logo {
+    background: #7E2DFC;
+    padding: 17px 23px 18px 23px;
+    border-radius: 20px;
+    margin: 64px 0 64px 0;
+}
+.loginCont .loginCont__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 387px;
+    width: 360px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 40px 32px;
+}
+.loginCont .recoverForm {
+    height: 329px;
+}
+.loginCont .successfulForm {
+    height: 271px;
+}
+.loginCont .loginCont__form .loginCont__title {
+    margin-bottom: 12px;
+} 
+.loginCont .loginCont__form .loginCont__description {
+    color: #8F92A1;
+    margin-bottom: 32px;
+}
+.loginCont .loginCont__form .requestDescription {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.loginCont .loginCont__form p:nth-child(3) {
+    margin-bottom: 32px;
+}
+.loginCont .loginCont__form .loginCont__emailInput {
+    margin-bottom: 12px;
+}
+.loginCont .loginCont__form .recoverEmail {   
+    margin-bottom: 0;
+}
+.input {
+    height: 46px;
+    width: 296px;
+    border-radius: 15px;
+    border: none;
+    background-color: #8F92A10D;
+    padding-left: 15px;
+    outline: none;
+}
+.loginCont .loginCont__form .loginCont__password {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    height: 46px;
+    width: 296px;
+    background-color: #8F92A10D;
+    padding-right: 16px;
+    margin-bottom: 32px;
+}
+.loginCont .loginCont__form .loginCont__password .loginCont__passwordInput {
+    background-color: transparent;
+}
+.loginCont .loginCont__form .loginCont__password .loginCont__passwordIcon {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.loginCont .loginCont__form .loginCont__btn {
+    background-color: #7E2DFC;
+    color: #fff;
+    border: none;
+    padding: 8px 126px;
+    border-radius: 15px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.loginCont .loginCont__form .loginCont__btn:hover {
+    cursor: pointer;
+}
+.loginCont .loginCont__form .loginCont__forgot {
+    color: grey;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+.loginCont .loginCont__form .loginCont__restore {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #0052CC;
+}
+.loginCont .loginCont__form .recoverBtn {
+    padding: 8px 109px;
+    margin: 32px 0 24px 0;
+}
+.loginCont .loginCont__form .mailBtn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 8px 75px;
+}

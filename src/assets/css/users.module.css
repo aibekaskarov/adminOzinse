@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.section {
+    border-top-left-radius: 13px;
+    background: #8F92A11A;
+    padding: 40px 48px;
+}
+.section .section__container .section__itemsBlock {
+    display: flex;
+    align-items: center;
+    background-color: #8F92A10D;
+    width: 293px;
+    border-radius: 13px;
+    padding: 8px 12px;
+    margin-top: 40px;
+}
+.section .section__container .section__itemsBlock .section__itemsType {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8F92A1;
+    margin-right: 8px;
+}
+.section .section__container .section__itemsBlock .section__itemsTitle {
+    font-size: 14px;
+    font-weight: 700;
+    color: #171717;
+    margin-right: 12px;
+}
+.section .section__container .section__userBlocks {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+.section .section__container .section__userBlocks .section__block {
+    height: 142px;
+    width: 260px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 16px;
+}
+.section .section__container .section__userBlocks .section__block .section__firstLetter {
+    width: 40px;
+    height: 40px;
+    background-color: #0052CC;
+    border: 2px solid #F3F6F8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section .section__container .section__userBlocks .section__block .section__firstLetter p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.section .section__container .section__userBlocks .section__block h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #171717;
+    margin-top: 16px;
+}
+.section .section__container .section__userBlocks .section__block h3:hover {
+    color: #0052CC;
+    cursor: pointer;
+}
+.section .section__container .section__userBlocks .section__block .section__mail {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9CA3AF;
+    margin-top: 8px;
+}
+.link {
+    text-decoration: none;
+}

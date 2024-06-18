@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container .container__background {
+    width: 480px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-bottom: 32px;
+}
+.container .container__background .container__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 24px 22px 24px;
+    border-bottom: 1px solid#8F92A11A;
+    margin-bottom: 32px;
+}
+.container .container__background .container__head .container__headTitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #171717;
+}
+.container .container__background .container__centerText {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8F92A1;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.container .container__background .container__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.container .container__background .container__btns .container__deleteBtn {
+    padding: 8px 24px;
+    background-color: #7E2DFC;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+.container .container__background .container__btns .container__cancelBtn {
+    padding: 8px 39px;
+    background-color: #8F92A11A;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;   
+    color: #171717;
+    cursor: pointer;
+}

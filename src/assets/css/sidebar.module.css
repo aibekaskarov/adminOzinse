@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.sidebar {
+    height: 1024px;
+    width: 250px;
+    padding-left: 40px;
+}
+.sidebar .sidebar__logo {
+    padding-top: 30px;
+    margin-bottom: 52px;
+}
+.sidebar .sidebar__ul .sidebar__list {
+    list-style: none;
+}
+.sidebar .sidebar__ul .sidebar__list .sidebar__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 32px;
+}
+.sidebar .sidebar__ul .sidebar__list .sidebar__link .sidebar__icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+}
+.sidebar .sidebar__ul .sidebar__list .sidebar__link .sidebar__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #171717;
+    align-content: center;
+}
+.projects {
+    display: flex;
+}
