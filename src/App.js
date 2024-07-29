@@ -26,6 +26,9 @@ import DeleteGenres from './pages/DeleteGenres';
 import AddAges from './pages/AddAges';
 import DeleteAges from './pages/DeleteAges';
 import MainInfo from './pages/MainInfo';
+import AddVideo from './pages/AddVideo';
+import AddCover from './pages/AddCover';
+import AddSuccess from './pages/AddSuccess';
 
 const routes = [
   {
@@ -89,8 +92,8 @@ const routes = [
     element: <DeleteAges />,
   },
   {
-    path: 'MainInfo',
-    element: <MainInfo />,
+    path: 'AddSuccess',
+    element: <AddSuccess />,
   },
   {
     path: '/',
@@ -127,6 +130,18 @@ const routes = [
       {
         path: 'Details',
         element: <Details />,
+      },
+      {
+        path: 'MainInfo',
+        element: <MainInfo />,
+      },
+      {
+        path: 'AddVideo',
+        element: <AddVideo />,
+      },
+      {
+        path: 'AddCover',
+        element: <AddCover />,
       }
     ]
   }

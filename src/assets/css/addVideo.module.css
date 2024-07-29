@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.inputContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    width: max-content;
+    border: 1px solid #17171799;
+    border-radius: 16px;
+    padding: 11px 22px 11px 24px;
+}
+
+.inputContainer input {
+    outline: none;
+    color: #171717;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+.inputContainer label {
+    position: absolute;
+    transform: translateY(-50%);
+    color: #8F92A1;
+    top: 0;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    background: #fff;
+    padding: 0 8px;
+}
+
+.season {
+    font-size: 22px;
+    font-weight: 700;
+    color: #171717;
+}
+
+.inputVideo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.inputVideo input {
+    width: 708px;
+    padding: 11px 56px 11px 24px;
+    background-color: #8F92A10D;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #171717;
+}
+
+.addSeries {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0052CC;
+    margin-top: 16px;
+}

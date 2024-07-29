@@ -22,4 +22,5 @@
     color: #8F92A1;
     background-color: transparent;
     border: none;
+    outline: none !important;
 }

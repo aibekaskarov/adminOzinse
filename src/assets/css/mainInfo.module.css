@@ -1,0 +1,194 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.article {
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 16px;
+    margin-top: 40px;
+}
+
+.article .article__title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.article .article__title .article__titleImg {
+    background-color: #8F92A11A;
+    padding: 2px 5px;
+    border-radius: 6px;
+} 
+
+.article .article__title h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.article .article__info {
+    margin-top: 40px;
+}
+
+.article .article__info .article__inputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 11px 24px;
+    font-size: 16px;
+    background-color: #8F92A10D;
+    border-radius: 15px;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.inpMargin {
+    margin-top: 16px;
+}
+
+.article .article__info .article__inputContainer .article__input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.article .article__inputContainer label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: 0.3s;
+    background-color: transparent;
+    padding: 0 5px;
+    pointer-events: none;
+    color: #8F92A1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.article__inputContainer input:focus + label,
+.article__inputContainer input:not(:placeholder-shown) + label {
+    top: 0;
+    left: 10px;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+.article__inputContainer input:focus,
+.article__inputContainer input:not(:placeholder-shown) {
+    background-color: transparent;
+}
+
+.article__inputContainer input:focus::placeholder {
+    color: transparent;
+}
+
+.article__inputContainer:focus-within {
+    background-color: transparent;
+    border: 1px solid #17171799;
+}
+
+.article .article__info .article__block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 24px;
+    margin-top: 16px;
+}
+
+.article .article__info .article__inputContainer .article__icons {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.article .article__info .article__inputContainer .article__iconArrow {
+    width: 12px;
+    height: 6px;
+}
+
+.article .article__info .article__example {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8F92A1;
+    margin-left: 24px;
+    margin-top: 8px;
+}
+
+.article .article__info .article__description {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding: 16px 24px;
+    font-size: 16px;
+    background-color: #8F92A10D;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 16px;
+}
+
+.article .article__info .article__description textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.article__description:focus-within {
+    background-color: transparent;
+    border: 1px solid #17171799;
+}
+
+.article .article__info .article__mainBtn {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.article .article__info .article__btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.article .article__info .article__btns .article__btnBox {
+    display: flex;
+    gap: 8px;
+}
+
+.article .article__btn {
+    padding: 8px 44px;
+    border: none;
+    border-radius: 16px;
+    opacity: 24%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btnFurther {
+    background-color: #7E2DFC;
+    opacity: 24%;
+    color: #FFFFFF;
+}
+
+.btnCancel {
+    background-color: #8F92A199;
+    opacity: 10%;
+    color: #171717;
+}

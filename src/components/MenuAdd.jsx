@@ -24,7 +24,7 @@ function MenuAdd() {
                 <h2 className={styles.container__project}>Проекты</h2>
                 <p className={styles.container__num}>113</p>
               </div>
-              <Link className={styles.container__link} to="/">
+              <Link className={styles.container__link} to="/MainInfo">
               <div className={styles.container__item2}>
                         <img src={mathPlus} alt="" />
                         <button className={styles.container__addBtn}>Добавить</button>

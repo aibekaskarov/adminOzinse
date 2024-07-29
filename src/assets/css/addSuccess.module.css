@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container .container__background {
+    width: 480px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-bottom: 32px;
+}
+
+.container .container__background .container__close {
+    display: flex;
+    justify-content: end;
+    padding: 26px 28px;
+}
+
+.container .container__background .container__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .container__background .container__description .container__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #1FBF79;
+    opacity: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__tickIcon img {
+    filter: none !important;
+    /* color: #1FBF79; */
+  }
+
+.container .container__background .container__description h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #171717;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.container .container__background .container__description .container__btn {
+    padding: 8px 34.5px;
+    background-color: #7E2DFC;
+    border: none;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}

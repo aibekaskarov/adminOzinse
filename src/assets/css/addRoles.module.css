@@ -51,7 +51,7 @@
 .container .container__background .container__btns .container__deleteBtn {
     padding: 8px 24px;
     background-color: #7E2DFC;
-    border-radius: 15px;
+    border-radius: 16px;
     border: none;
     outline: none;
     font-size: 16px;
@@ -73,29 +73,28 @@
 .inputs {
     padding: 0 32px 32px 32px;
 }
-.inputs .inputs__inputContainer {
+.inputs__inputContainer {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 26px;
     width: 510px;
-    padding: 10px;
     border: 1px solid #17171799;
     border-radius: 15px;
     padding: 11px 20px 11px 24px;
 }
-.inputs .inputs__inputContainer:last-child {
+.inputs__inputContainer:last-child {
     margin-bottom: 0;
 }
-.inputs .inputs__inputContainer input {
+.inputs__inputContainer input {
     outline: none;
     color: #171717;
     font-size: 14px;
     font-weight: 700;
     border: none;
 }
-.inputs .inputs__inputContainer label {
+.inputs__inputContainer label {
     position: absolute;
     transform: translateY(-50%);
     color: #8F92A1;

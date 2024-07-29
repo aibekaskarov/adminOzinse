@@ -1,0 +1,119 @@
+@font-face {
+    font-family: Roboto, sans-serif;
+    src: url(../css/Roboto.zip);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    color: #171717;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.container__description {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+.container__uploadBox {
+    border: 2px dashed #8F92A133;
+    background-color: #8F92A10D;
+    padding: 40px 0;
+    width: 100%;
+    height: max-content;
+    position: relative;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+}
+
+.container__backgroundImage {
+    background-color: #8F92A10D;
+    display: flex;
+    width: 48px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    padding: 16px;
+}
+
+.fileInput {
+    display: none; 
+}
+
+.container__upload-box p {
+    margin: 0 0 10px 0;
+}
+
+.container__fileInput {
+    display: none;
+}
+
+.container__label {
+    display: block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8F92A1;
+}
+
+.container__label span {
+    color: #0052CC;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.container__thumbnail {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    position: relative;
+}
+
+.screenshotContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.screenshotThumbnail {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container__removeBtn {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: #FFFFFF66;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
