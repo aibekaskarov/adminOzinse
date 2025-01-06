@@ -5,7 +5,7 @@ import styles from '../assets/css/Layout.module.css'
 
 const Layout = () => (
   <div className={styles.app}>
-        <Sidebar />
+    <Sidebar />
     <div className={styles.app__mainContent}>
       <div className={styles.app__sidebar}>
       <Header />

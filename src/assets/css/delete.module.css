@@ -16,7 +16,7 @@
 }
 .container .container__background {
     width: 480px;
-    height: 297px;
+    height: max-content;
     background-color: #fff;
     border-radius: 15px;
     padding-bottom: 32px;
